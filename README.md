@@ -4,6 +4,13 @@ this script sends a json data to your api to monitor active connections and band
 data includes trusted_ip, bytes_received, bytes_sent, common_name, and script type (client-connect or client-disconnect)
 https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/#environmental-variables
 
+ensure python3 is installed
+
+requests python package is required for calling the api
+```
+pip3 install requests
+```
+
 first, clone or download this repository then edit agent.py
 
 chmod agent.py
