@@ -6,6 +6,11 @@ https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/#enviro
 
 first, clone or download this repository then edit agent.py
 
+chmod agent.py
+```
+chmod +x ./openvpn-agent/agent.py
+```
+
 change endpoint value to your api endpoint.
 
 add this line to your openvpn server config. usually, `/etc/openvpn/server.conf`
