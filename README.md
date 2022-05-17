@@ -1,6 +1,6 @@
 # openvpn-agent
 
-this script sends a json data to your api to monitor active connections and bandwidth
+this script sends a json data to your api to monitor active connections and bandwidth.
 data includes trusted_ip, bytes_received, bytes_sent, common_name, and script type (client-connect or client-disconnect)
 https://openvpn.net/community-resources/reference-manual-for-openvpn-2-4/#environmental-variables
 
